@@ -1,0 +1,27 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    padding: 14px 16px;
+    background: blue;
+    color: burlywood;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+td{
+    height: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #400000;
+    font-size: 16px;
+}
+tr:hover{
+    background: yellowgreen;
+}
+tr:nth-child(even){
+    background: lightblue;
+}
